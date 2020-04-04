@@ -1,0 +1,21 @@
+{
+  "name": "cloudflare-ddns",
+  "version": "1.0.0",
+  "description": "Uses Cloudflare as a DDNS tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Curtis",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jose": "^1.25.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "url-join": "^4.0.1",
+    "uuid": "^7.0.3"
+  }
+}
